@@ -1,0 +1,39 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.bordertop{
+  border-top: 3px solid green;
+  border-left: 3px solid green;
+  border-right: 3px solid green;
+  font-size: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+.borderbottom{
+  border-left: 3px solid green;
+  border-right: 3px solid green;
+  border-bottom: 3px solid green;
+  word-wrap: break-word;
+  width: 70%;
+  margin: auto;
+}
+
+.form{
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.deleteButton{
+  border: 1px soilid red;
+  background-color: red;
+  text-align: center;
+}
