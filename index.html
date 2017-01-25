@@ -2,19 +2,21 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>repl.it</title>
+        <title>Comment THIS!</title>
 
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="icon" href="img/bubble.png" sizes="16x16">
 
     </head>
     <body>
       <form class="form">
         <input type="text" id="userName" placeholder="user name" required>
-        <textarea type="text" id="comment" placeholder="comment here!" required></textarea>
+        <textarea type="text" id="comment" onkeydown="if (event.keyCode == 13) userCom()" placeholder="comment here!" required></textarea>
         <input type="button" id="post" onclick="userCom()" value="send comment">
       </form>
       <div id="commentSection">
+        
       </div>
       <script src="js/javascript.js"></script>
     </body>

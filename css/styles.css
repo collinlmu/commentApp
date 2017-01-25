@@ -3,18 +3,23 @@ body{
 }
 
 .bordertop{
-  border-top: 3px solid green;
-  border-left: 3px solid green;
-  border-right: 3px solid green;
+  border-top: 3px solid #3c3;
+  border-left: 3px solid #3c3;
+  border-right: 3px solid #3c3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   font-size: 30px;
   width: 70%;
   margin: auto;
+  margin-top: 20px;
 }
 
 .borderbottom{
-  border-left: 3px solid green;
-  border-right: 3px solid green;
-  border-bottom: 3px solid green;
+  border-left: 3px solid #3c3;
+  border-right: 3px solid #3c3;
+  border-bottom: 3px solid #3c3;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   word-wrap: break-word;
   width: 70%;
   margin: auto;
@@ -24,16 +29,27 @@ body{
   text-align: center;
 }
 
-input, textarea {
+#userName, #comment, #post {
   display: block;
   text-align: center;
   margin: auto;
-  border: 1px solid red;
+  border: 6px solid #09f;
   border-radius: 5px;
+  font-size: 30px;
+  background-color: #fff;
+}
+#comment{
+  width: 30%;
+  height: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 6px solid #09f;
 }
 
 .deleteButton{
-  border: 1px soilid red;
+  border: 30px soilid red;
   background-color: red;
   text-align: center;
+  margin-top: 10px;
+  margin-right: 250px;
 }
